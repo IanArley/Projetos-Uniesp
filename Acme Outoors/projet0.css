@@ -1,0 +1,559 @@
+.covid { 
+    display: flex;
+    background-color: #222;  
+    align-items: center; 
+    padding: 20px 0px;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.anuncio { 
+    color: white; 
+    font-size: 16px; 
+    font-family: Sen, sans-serif;
+    background-color: #eb5757;
+    border: 0.800;
+    padding: 5px 20px;
+    margin: 0px 10px;
+    border: #eb5757;
+    border-radius: 15px;
+}
+.text1 { 
+    font-size: 18px; 
+    color: white;
+    font-family: Sen, sans-serif;
+}
+.faixared {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eb5757;
+    padding: 20px 0px;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 66px;
+    z-index: 9999; 
+}
+.buttonfaixa {
+    background-color: #eb5757;
+    border: none;
+    padding: 6px 15px;
+    color: white;
+    margin: 0px 13px;
+    font-family: Sen, sans-serif;
+    text-decoration: none;
+}
+.bt {
+    position: absolute;
+    right: 130px;
+    top: 28px;
+}
+.carrinho {
+    border: #222;
+    background-color: #222;
+    padding: 6px 15px;
+    border-radius: 7px;
+    margin-right: 50px;
+}
+.botoesfaixa {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px;
+    font-size: 16px;
+    padding: 4px 10px;
+    font-family: Sen, sans-serif;
+}
+.logo {
+    padding-left: 100px;
+}
+.car {
+    width: 20px;
+    height: 20px;
+}
+.serving {
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif;
+    margin: 20px 0px 10px 0px;
+    padding-left: 180px;
+    padding-top: 120px;
+}
+.text2 {
+    color: white;
+    margin: 0px 0px 25px;
+    font-size: 18px;
+    margin-left: 180px;
+    margin-top: 5px;
+}
+.shopmerch {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius:5px ;
+    padding: 5px 25px;  
+    font-size: 16px;
+    margin-left: 180px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    
+}    
+.montanha {
+    background-image: url(./Projeto/imagem1.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+*{margin: 0px;}
+.pregeometricsegment {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 180px;
+    align-items: center;
+    flex-direction: column;
+}
+.ways {
+    font-size: 16px;
+    font-family: Sen, sans-serif;
+}
+.sup {
+    font-size: 40px;
+    font-family: Sen, sans-serif;
+}
+.advertencia {
+    font-size: 16px;
+    font-family: Sen, sans-serif;
+    margin: 0px 0px 10px;
+    position: absolute;
+    left: 56%  ;
+}
+.support {
+    margin-right: 40px;
+    position: absolute;
+    left: 140px;
+}
+.geometrics {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.circle {
+    background-color: #222;
+    color: white;
+    margin-bottom: 45px;
+    width: 330px;
+    height: 330px;
+    margin-right: 30px;
+    margin-left: 45px;
+    border-radius: 5px;
+}
+.triangle { 
+    background-color: #222;
+    color: white;
+    margin-bottom: 45px;
+    height: 330px;
+    width: 330px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.retangle {
+    background-color: #222;
+    color: white;
+    margin-bottom: 45px;
+    height: 330px;
+    width: 330px;
+    margin-right: 45px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.forms {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: absolute;
+    left: 90px;
+}
+.formstext {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 350px;
+}
+.our {
+    height: 70px;
+    width: 350px;
+    position: absolute;
+    left: 135px;
+    font-size: 16px ;
+}
+.since {
+    height: 70px;
+    width: 350px;
+    position: absolute;
+    left: 525px;
+    font-size: 16px ;
+}
+.have {
+    height: 70px;
+    width: 350px;
+    position: absolute;
+    left: 915px;
+    font-size: 16px ;
+}
+.inicio {
+    padding-top: 90px;
+}
+.shopproduct {
+    font-size: 40px;
+    padding-left: 115px;
+    padding-top: 30px;
+}
+.shopproduct2 {
+    font-size: 40px;
+    padding-left: 75px;
+}
+.donate2 {
+    font-size: 40px;
+    padding-left: 90px;
+    padding-top: 50px;
+}
+.buygiftcards {
+    font-size: 40px;
+    padding-left: 120px;
+    padding-top: 30px;
+}
+.o1 {
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.o2 {
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.o3 { 
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.cir {
+    padding-left: 220px;
+    padding-top: 60px;
+}
+.giftcards {
+    font-size: 40px;
+    padding-left: 40px;
+}
+.tri {
+    padding-left: 200px;
+    padding-top: 80px;
+}
+.ret {
+    transform: rotate(90deg);
+    padding-left: 200px;
+    padding-right: 340px;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+.floresta {
+    background-image: url(./Projeto/imagem2.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    background-position-y: center;
+}
+.how {
+    color: white;
+    font-size: 40px;
+    padding-left: 850px;
+    padding-top: 100px;
+}
+.safe {
+    color: white;
+    font-size: 40px;
+    padding-left: 860px;
+}
+.as {
+    color: white;
+    font-size: 18px;
+    padding-left: 910px;
+}
+.measures {
+    color: white;
+    font-size: 18px;
+    padding-left: 965px;
+}
+.costumers {
+    color: white;
+    font-size: 18px;
+    padding-left: 1030px;
+    padding-bottom: 100px;
+}
+.statement {
+    background-color: white;
+    font-size: 16px;
+    margin: 0px 10px 0px 0px;
+    width: 165px;
+    height: 35px; 
+    position: absolute;
+    left: 1080px;
+    top: 1430px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+ body {
+    overflow-x: hidden;
+}
+.img2 {
+    display: flex;
+    flex-direction: column;
+}
+.i24 {
+    position: absolute;
+    left: 140px;
+}
+.sp {
+    font-size: 16px;
+    padding-top: 40px;
+}
+.open24 {
+    font-size: 40px;
+}
+.bcb {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 130px;
+    padding-left: 140px;
+}
+.barraca {
+    height: 500px;
+    width: 350px;
+    background-image: url(./Projeto/barraca.jpg);
+    background-size: cover;
+    margin: 0px 0px 15px;
+    border-radius: 5px;
+    background-position-x: center;
+}
+.caneca {
+    height: 500px;
+    width: 350px;
+    background-image: url(./Projeto/caneca.jpg);
+    background-size: cover;
+    margin: 0px 0px 15px;
+    position: absolute;
+    left: 37.5%;
+    border-radius: 5px;
+    background-position-x: center;
+}
+.bolsa {
+    height: 500px;
+    width: 350px;
+    background-image: url(./Projeto/bolsa.jpg);
+    background-size: cover;
+    margin: 0px 0px 15px;
+    position: absolute;
+    left: 64.5%;
+    border-radius: 5px;
+    background-position-x: center;
+}
+.sal3 {
+    background-color: #eb5757;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px 20px;
+    position: absolute;
+    left: 270px;
+    top: 15px;
+}
+.bcbtext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wt {
+    font-size: 20px;
+    position: absolute;
+    left: 265px;
+    padding-top: 30px;
+}
+.tct {
+    font-size: 20px;
+    position: absolute;
+    left: 610px;
+    padding-top: 30px;
+}
+.bcp {
+    font-size: 20px;
+    position: absolute;
+    left: 980px;
+    padding-top: 30px;
+}
+.prices {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 30px;
+}
+.i200 {
+    font-size: 14px;
+    padding-left: 270px;
+}
+.i35 {
+    font-size: 14px;
+    position: absolute;
+    left: 650px;
+}
+.i95 {
+    font-size: 14px;
+    position: absolute;
+    left: 970px;
+}
+.i145 {
+    font-size: 14px;
+    color: #eb5757;
+    position: absolute;
+    right: 220px;
+}
+.bcbbuttons {
+    padding-top: 20px;
+}
+.detail1 {
+    font-size: 16px;
+    background-color: #eb5757;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+    position: absolute; 
+    left: 260px;  
+}
+.detail2 {
+    font-size: 16px;
+    background-color: #eb5757;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    left: 640px;
+}
+.detail3 {
+    font-size: 16px;
+    background-color: #eb5757;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    left: 1005px;
+}
+.vap {
+    padding-top: 80px;
+}
+.vapb {
+    color: white;
+    background-color: #222;
+    font-size: 16px;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 605px;
+}
+.womenbackground {
+    color: white;
+    background-color: #222;
+    padding: 45px;
+    border-radius: 5px;
+    margin-top: 150px;
+    margin-left: 350px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.sl {
+    font-size: 45px;
+    padding-left: 340px;
+}
+.finaltext1 {
+    font-size: 16px;
+    padding-left: 340px;
+    padding-top: 15px;
+}
+.finaltext2 {
+    font-size: 16px;
+    padding-left: 340px;
+    padding-top: 15px;
+}
+.finaltext3 {
+    font-size: 16px;
+    padding-left: 340px;
+    padding-top: 15px;
+}
+.seven- {
+    font-size: 16px;
+    padding-left: 340px;
+    padding-top: 15px;
+    color: #20c788;
+}
+.finaltext4 {
+    font-size: 16px;
+    padding-left: 340px;
+    padding-top: 15px;
+}
+.women {
+    background-image: url(./Projeto/mulher.jpg);
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    top: 2535px;
+    left: 100px;
+    background-size: 270%;
+    background-position: center;
+    background-position-y: -165px;
+    background-position-x: -420px;
+    border-radius: 5px;
+}
+.caboh {
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 65px 0px;
+    margin-top: 60px;
+}
+.twitter {
+    height: 30px;
+    width: 30px;
+}
+.face {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
+.insta {
+    height: 30px;
+    width: 30px;
+    margin-right: 90px;
+    margin-left: 20px;
+}
+.socialmedia {
+    justify-content: space-between;
+}
+.bottomlogo {
+    margin-left: 90px;
+}
